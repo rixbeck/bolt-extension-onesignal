@@ -1,0 +1,38 @@
+{
+    "name": "rixbeck/onesignal",
+    "description": "Extension for push messaging via Onesignal",
+    "type": "bolt-extension",
+    "keywords": [
+        "push", "onesignal", "messaging"
+    ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rix Beck",
+            "email": "rix@boltcms.hu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\RixBeck\\OneSignal\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bolt\\Extension\\RixBeck\\OneSignal\\Tests\\": "tests",
+            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\RixBeck\\OneSignal\\OneSignalExtension"
+    }
+}
