@@ -1,0 +1,28 @@
+##### See OneSignal WebPush SDK initialization options here
+#####   https://documentation.onesignal.com/v3.0/docs/web-push-sdk
+
+init:
+### Application ID from OneSignal control panel goes here
+### Do not use this fake ID it won't work
+  appId: "cee4672b-7507-4563-b3d0-d52902cd0111"
+  httpPermissionRequest:
+      enable: true
+  autoRegister: true
+  notifyButton:
+      enable: true
+      showCredit: false
+      text:
+          tip.state.unsubscribed: "I'm subscribing, yeah"
+          tip.state.subscribed: "You're subscribed now"
+          tip.state.blocked: "You've been unsubscribed"
+          ### You may customize further notifications
+          # message.prenotify: "Click to "
+          # message.action.subscribed: "Thanks for subscribe!"
+          # ...
+
+##### See manifest customization here https://documentation.onesignal.com/v3.0/docs/web-push-sdk-setup-https
+manifest:
+  name: "Long name of our context"
+  short_name": "Short context name"
+  start_url": "/"
+  display: "standalone"
