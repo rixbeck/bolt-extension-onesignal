@@ -33,6 +33,7 @@
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\RixBeck\\OneSignal\\OneSignalExtension"
+        "bolt-class": "Bolt\\Extension\\RixBeck\\OneSignal\\OneSignalExtension",
+        "bolt-icon": "resources/extension-icon.png"
     }
 }
