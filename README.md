@@ -35,3 +35,7 @@ Under `config.yml#init` section you may introduce all of necessary entry you wou
 ### License
 
 This Bolt extension is open-sourced software licensed under the [MIT License]
+
+### Change log
+
+2017-06-18 Added extension icon as a #1555 like feature :)
